@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  display: flex;
+  background-color: #9ca4b6;
+}
+
+.contenedor-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.centrar {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btnAdmin {
+  background-color: #085c7c;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btnInternos {
+  background-color: #085c7c;
+  color: white;
+  width: auto;
+  height: auto;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btnAdmin:hover {
+  background-color: #003289; /* Color de fondo al pasar el puntero */
+  color: #fff; /* Color de texto al pasar el puntero */
+}
+
+.btnInternos:hover {
+  background-color: #003289; /* Color de fondo al pasar el puntero */
+  color: #fff; /* Color de texto al pasar el puntero */
+}
+.btnNavbar {
+  background-color: #085c7c;
+  color: white;
+}
+
+.btnNavbar:hover {
+  background-color: #003289; /* Color de fondo al pasar el puntero */
+  color: #fff; /* Color de texto al pasar el puntero */
+}
+
+.colorNavbar {
+  background-color: #505455;
+  color: white;
+}
+
+.TableUsuarios {
+  border-collapse: collapse;
+  border: 1px solid;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.btnBloqueado {
+  cursor: not-allowed; /* Cambia el cursor para que el usuario vea que está bloqueado */
+  pointer-events: none; /* Deshabilita cualquier interacción con el botón */
+  background-color: #f4b6b6;
+  color: white;
+}
+
+.btnPaginadoActivo {
+  background-color: #505455;
+  color: white;
+}
+
+.btnPaginadoActivo:hover {
+  background-color: #003289; /* Color de fondo al pasar el puntero */
+  color: #fff; /* Color de texto al pasar el puntero */
+}
+.preview-img {
+  max-width: 200px;
+  max-height: 200px;
+  display: none;
+  margin-top: 10px;
+}
+
+@media print {
+  .show_div {
+      display: block !important;
+  }
+}
